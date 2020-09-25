@@ -1,3 +1,4 @@
+$lt-white: #fff;
 $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
@@ -43,6 +44,18 @@ body {
     z-index: 0;
 }
 
+.navbar-dark {
+    background-color: $background-dark;
+}
+
+.tab-content {
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
+    padding: 10px;
+}
+
+
 .carousel {
     background:$background-dark;
 
@@ -62,4 +75,20 @@ body {
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-content {
+
+    .modal-header {
+        background-color: $background-dark;
+        color: $lt-white;
+
+        .close {
+            color: $lt-white;
+        }
+    }
+
+    .modal-body {
+        background-color: $background-pale;
+    }
 }

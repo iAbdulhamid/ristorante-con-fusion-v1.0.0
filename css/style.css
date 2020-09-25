@@ -28,6 +28,15 @@ body {
   padding-top: 50px;
   z-index: 0; }
 
+.navbar-dark {
+  background-color: #512DA8; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
 .carousel {
   background: #512DA8; }
   .carousel .carousel-item {
@@ -39,7 +48,16 @@ body {
       min-height: 300px; }
 
 #carouselButton {
-  right: 15px;
+  right: 0px;
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-content .modal-header {
+  background-color: #512DA8;
+  color: #fff; }
+  .modal-content .modal-header .close {
+    color: #fff; }
+
+.modal-content .modal-body {
+  background-color: #D1C4E9; }
